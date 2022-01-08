@@ -1,0 +1,141 @@
+body {
+  font-family: "El Messiri", sans-serif;
+}
+.login {
+  height: 100vh;
+}
+.login .text {
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  background-image: url(../images/Rectangle.png);
+}
+.login .text .logo {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.login .text .logo img {
+  width: 200px;
+}
+.login .text img {
+  width: 100%;
+}
+.login .text p {
+  font-size: 20px;
+  line-height: 50px;
+}
+.bc {
+  background-image: url(../images/MaskGroup1.png);
+}
+.login .form {
+  direction: rtl;
+  padding: 50px;
+}
+.login .form h1 {
+  color: #02aab0;
+}
+.login .form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.login .form form label {
+  color: #02aab0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.login .form form input {
+  background-color: #eff8fd;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  outline: none;
+}
+.login .pass {
+  display: flex;
+  justify-content: space-between;
+}
+.login .check {
+  display: flex;
+}
+.login #remeber {
+  margin-top: 5px;
+}
+.login .remeber {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.login .forget {
+  margin-top: 10px;
+}
+.login .forget a {
+  text-decoration: none;
+  color: #02aab0;
+  font-weight: bold;
+}
+.login .form form button {
+  background: linear-gradient(#00cdac, #02aab0);
+  border: 2px solid #00cdac;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.login .form form button:hover {
+  background: white;
+  color: #00cdac;
+  transition: background-color 1s ease;
+}
+.login .form form .signup {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.login .form form .signup hr {
+  width: 120px;
+  transform: translateX(-50%);
+  padding-right: 50%;
+}
+.login .form form .signup p {
+  font-size: 14px;
+}
+.login .form form .signup p a {
+  color: #02aab0;
+}
+.div {
+  display: flex;
+}
+.div i {
+  font-size: 30px;
+  color: #02aab0;
+  padding-left: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+.num{
+  position: relative;
+  overflow: hidden;
+}
+.num i{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #00cdac;
+}
+#text{
+  width: 100%;
+}
+#list{
+  background: none;
+  border: none;
+  position: absolute;
+  z-index: 99;
+  left: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  appearance: none;
+}

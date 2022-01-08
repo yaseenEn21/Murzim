@@ -1,0 +1,100 @@
+body {
+  font-family: "El Messiri", sans-serif;
+  background-image: url(../images/pass.png);
+}
+
+.logo {
+  padding-bottom: 30px;
+}
+.form {
+  width: 50%;
+  margin: auto;
+  direction: rtl;
+  padding: 50px;
+  text-align: center;
+}
+.pass {
+  background-image: url(../images/pass1.png);
+}
+.form i {
+  font-size: 30px;
+  color: #00cdac;
+  padding: 5px;
+  background-color: #5cfde340;
+  border: 1px;
+  border-radius: 20px;
+}
+.form h1 {
+  color: #02aab0;
+  padding: 15px;
+}
+.form p {
+  line-height: 40px;
+}
+.form form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.form form label {
+  color: #02aab0;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  text-align: right;
+  font-size: 20px;
+}
+.form form input {
+  background-color: #d7eefa;
+  border-radius: 10px;
+  border: none;
+  height: 50px;
+  outline: none;
+}
+.forget {
+  margin-top: 10px;
+}
+.forget a {
+  text-decoration: none;
+  color: #02aab0;
+  font-weight: bold;
+}
+.forget a:hover {
+  color: black;
+}
+button {
+  background: linear-gradient(#00cdac, #02aab0);
+  border: 2px solid #00cdac;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+form button:hover {
+  background: white;
+  color: #00cdac;
+  transition: background-color 1s ease;
+}
+form .signup {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+form .signup hr {
+  width: 120px;
+  transform: translateX(-50%);
+  padding-right: 50%;
+}
+form .signup p {
+  font-size: 14px;
+}
+form .signup p a {
+  color: #02aab0;
+}
+@media (max-width: 700px) {
+  .form {
+    width: 100%;
+  }
+}
